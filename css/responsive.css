@@ -15,6 +15,16 @@
                 padding: 0px;
                 gap: 30px !important;
               }
+
+              .featured-paragraph {
+                
+                height: 140px;
+            }
+
+            .featured-paragraph p{
+                
+                font-size: 18px;
+            }
 }
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
