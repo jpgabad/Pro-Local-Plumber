@@ -1,0 +1,558 @@
+/****************************************************** HEADER ******************************************************/
+/* HEADER */
+.hero-header{
+    min-height: 593px;
+    margin-top: 96px;
+    background-image: url("../img/home-bg.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 150px;
+  }
+
+  .hero-header h1 span{
+    font-size: 44px;
+    font-family: 'brandonGrotesqueBlack' !important;
+    font-weight: 900;
+
+    color: var(--white);
+    padding: 10px 25px;
+    display: inline-block;
+  }
+
+
+  .h1-black-bg{
+    background-color: var(--black);
+  }
+  .h1-red-bg{
+    background-color: var(--color1);
+  }
+
+ .plp-check  ul li::marker{
+  color: red;
+  font-size: 1em;
+  content: '\f14a';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+
+  }
+
+  .plp-check ul li{
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  .plp-check{
+    margin-bottom: 50px;
+  }
+
+
+/****************************************************** SECTION DEFAULT ******************************************************/
+/* SECTION */
+.section{
+    min-height: 400px;
+    padding-top: 6rem;
+    
+   
+  }
+
+  .section-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .section h2{
+    font-family: 'brandonGrotesqueBlack' !important;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+
+/****************************************************** SECTION 1 ******************************************************/
+.plp-card-container{
+
+  height: 430px;
+  width: 300px;
+  padding: 40px 30px 0px 30px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.3);
+}
+
+.plp-card-icon{
+  margin-bottom: 1rem;
+}
+
+.plp-card-container h4{
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 40px;
+ 
+}
+
+.plp-card-container p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.plp-card-hover{
+  height: 450px;
+  margin-top: -20px;
+  box-shadow: 0px 2px 16px 6px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 2px 16px 6px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 16px 6px rgba(0,0,0,0.2);
+}
+
+.plp-card-hover .plp-card-p-hover{
+  background-color: var(--color1);
+  display: block;
+  width: 300px;
+  height: 20px;
+  padding: 0px !important;
+  margin-left: -30px;
+  height: 215px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.plp-card-hover  p{
+  color: var(--white) !important;
+  padding-top: 30px !important;
+}
+
+.col {
+  flex-grow: 0 !important;
+}
+
+
+/****************************************************** SECTION 2 ******************************************************/
+.featured-container{
+  position: relative;
+height: 1045px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+}
+
+.featured-container:hover{
+  transition: .5s;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+
+.featured-container .horizontal-line{
+  display: flex;
+  height: 3px;
+  width: 300px;
+  margin: auto;
+}
+
+.featured-container .horizontal-line .red-line{
+  display: inline-block;
+  height: 3px;
+  width: 150px;
+  background-color: #E50914;
+}
+
+.featured-container .horizontal-line .black-line{
+  display: inline-block;
+  height: 3px;
+  width: 150px;
+  background-color: #141D2A;
+}
+
+
+.featured-container h2{
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.featured-rating {
+ padding: 0px;
+}
+
+
+.featured-rating li{
+  display: inline-block;
+}
+
+.featured-paragraph{
+  margin-top: 1rem;
+  font-size: 25px;
+  height: 220px;
+}
+.featured-paragraph p{
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500 !important;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+.featured-bullet{
+  margin-bottom: 2rem;
+
+}
+
+.featured-bullet ul{
+  padding-left: 20px !important;
+}
+
+.featured-bullet ul li::marker{
+  color: red;
+  font-size: .8em;
+  content: '\f3c5';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+.featured-bullet ul li{
+  padding-left: 1rem;
+  font-size: 25px;
+}
+
+.featured-content{
+  padding: 30px;
+  padding-bottom: 70px;
+}
+
+.featured-content a{
+  margin-top: 2rem;
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 10px) !important;
+}
+
+
+
+.featured-img{
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.05);
+}
+
+
+/****************************************************** SECTION 3 ******************************************************/
+.image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.image-gallery > li {
+  flex-basis: 250px; /* width: 350px; */
+  list-style: none;
+  position: relative;
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+ 
+}
+/************************** DITO */
+
+
+.overlaygallery {
+  position: absolute;
+  transition: all 0.3s ease;
+  opacity: 0;
+  padding: 30px;
+  
+  
+}
+
+.gallery-bullet-hover ul{
+  position: relative;
+  left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.overlaygallery a i{
+  font-size: 2rem;
+  
+}
+
+.overlaygallery p , .overlaygallery a{
+  color: var(--white);
+  font-weight: 200;
+  font-family: "brandonGrotesqueLight" !important;
+  text-align: center;
+}
+
+.overlaygallery p {
+  margin: 0;
+  line-height: 25px;
+}
+
+.overlaygallery a{
+  display: block;
+  margin: auto;
+}
+
+.image-gallery li:hover .overlaygallery {
+  opacity: 1;
+}
+
+.overlayFade {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.76) !important;
+  border-radius: 15px;
+  z-index: 100;
+}
+
+
+.gallery-bullet-hover{
+
+
+}
+
+.gallery-bullet-hover ul{
+  padding-left: 20px !important;
+  
+}
+
+.gallery-bullet-hover ul li::marker{
+  color: white;
+  font-size: .8em;
+  content: '\f3c5';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+.gallery-bullet-hover ul li{
+  padding-left: 1rem;
+  font-size: 20px;
+  color: white;
+}
+
+
+/**************************  */
+/* 250x270 */
+
+
+.gallery-bullet{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+}
+
+.gallery-bullet ul{
+  padding-left: 20px !important;
+  
+}
+
+.gallery-bullet ul li::marker{
+  color: white;
+  font-size: .8em;
+  content: '\f3c5';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+
+.overlaygallery:hover + .gallery-bullet{
+ display: none;
+}
+
+.gallery-bullet ul li{
+  padding-left: 1rem;
+  font-size: 20px;
+  color: white;
+}
+
+/****************************************************** SECTION 4 ******************************************************/
+.testimonial-container{
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonial-img img{
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-paragraph p{
+  padding: 0 0px;
+  line-height: 25px;
+}
+
+.testimonial-name p {
+  font-weight: 600;
+}
+
+
+
+/****************************************************** SECTION 5 ******************************************************/
+.blog-title h3{
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.blog-content{
+  padding: 0 30px 30px 30px;  
+}
+
+.blog-img img{
+  margin: auto;
+}
+.blog-date ul{
+  padding-left: 20px;
+
+}
+
+.blog-date ul li{
+  padding-left: 0px;
+
+}
+
+.blog-date ul li span{
+  padding-left: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+.blog-paragraph p {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+}
+
+.blog-link{
+  color: #E50914;
+  display: flex;
+}
+
+.blog-link ul {
+  padding-left: 20px;
+}
+.blog-link ul li::marker{
+  color: red;
+  font-size: .8em;
+  content: '\f061';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+.blog-link a{
+  display: flex;
+  color: #E50914;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.blog-date ul li::marker{
+  color: red;
+  font-size: .8em;
+  content: '\f073';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+.section6{
+  margin-bottom: 6rem;
+}
+
+
+
+
+/****************************************************** CONTACT ******************************************************/
+.contact-section{
+  position: relative;
+  background: #ECEDEF;
+  height: 621px;
+}
+
+.contact-section img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.contact-section .section-title h2{
+  text-align: left;
+}
+
+.contact-section .horizontal-line{
+  margin: 0;
+}
+
+.contact-section button span{
+  font-weight: 400 !important;
+  padding: 10px 40px !important;
+}
+
+.contact-section button {
+  margin-top: 3rem;
+}
+
+
+
+
+.contact-section .section-title {
+  margin-bottom: 50px;
+}
+
+
+.form-control {
+  padding: 15px 0.75rem;
+  border-radius: 12px;
+}
+
+.contact-section textarea {
+  resize: none !important;
+  color: #141D2A;
+}
+
+input[type=text], input[type=email], textarea {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "brandonGrotesqueLight" !important;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+textarea {
+  color: #141D2A !important;
+}
+
+/****************************************************** FOOTER ******************************************************/
+.footer{
+    background-color: var(--color3);
+    text-align: center;
+    padding-bottom: 3rem;
+  
+  }
+  
+.footer p{
+  font-family: 'brandonGrotesqueLight' !important;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 20px;
+}
+  
+
+  

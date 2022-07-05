@@ -1,0 +1,282 @@
+nav{
+
+ 
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+  justify-content: flex-end !important;
+}
+
+
+.navbar-nav li{
+  margin: 0 20px;
+  text-align: center;
+}
+
+.navbar-nav .nav-item{
+  /* margin: 0 3rem; */
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item:hover a{
+  background-color: var(--color1);
+  color: var(--white) !important;
+}
+
+.navbar-nav .nav-item.active a{
+  background-color: var(--color1);
+  color: var(--white) !important;
+}
+
+.plp-menu-icon{
+
+}
+
+.bi-chevron-down::before {
+
+  color: red !important;
+}
+
+.bi-chevron-down:hover::before, .plp-menu-icon-li:hover .bi-chevron-down::before{
+  color:white !important;
+}
+
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* .navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+} */
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+  bottom: -70px;
+  height: 70px;
+  padding-top: 10px;
+}
+
+.subnav-content a {
+  display: inline-block;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.subnav-content a:hover {
+  background-color: #141D2A !important;
+  color: white !important;
+ 
+}
+
+
+.transition{
+  transition: all 0.9s ease;
+
+}
+
+
+
+.onscroll-bg a img{
+  float: left;
+}
+
+.onscroll-bg div ul{
+
+    padding-right: 0px;
+
+}
+
+
+.z-navbar-nav li{
+  margin: 0 8px;
+  /*transition: border-bottom .5s;*/
+}
+
+.z-nav-item::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: var(--black) !important;
+  transition: width .3s;
+}
+
+.z-nav-item:hover::after{
+  
+     width: 100%;
+}
+
+.z-nav-item.active::after{
+  
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: var(--white);
+  transition: width .3s;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    left: 0;
+    background: rgb(20,29,42);
+    background: linear-gradient(153deg, rgba(20,29,42,.8) 0%, rgba(0,0,0,.8) 100%);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--white) !important;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: var(--white) !important;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+
+     /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+}
+  }
+@media (max-width: 570px)  { 
+  /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+} 
+
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+} 
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+} 
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+}
+    
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+ /*Nav*/
+  .js-change a img{
+float: left;
+
+}
+
+.js-change div ul{
+padding-right: 0px;
+}
+
+    
+}
+@media  (max-width: 1000px) {   
+
+  
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  
+}
